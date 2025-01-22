@@ -13,8 +13,13 @@
   tasks:
   - name: print the information
     vars:
-      COURSE: "DevOps with AWS from TASK level"
+      # COURSE: "DevOps with AWS from TASK level"
       DURATION: "120HRS"
       TRAINER: "Sivakumar Reddy M"
     ansible.builtin.debug:
       msg: "Hi, I am learning {{COURSE}}, Duration: {{DURATION}}, Trainer: {{TRAINER}}"
+
+# Ansible can execute in the below sequence order
+#1. Command line/args
+#2. Task level
+#
