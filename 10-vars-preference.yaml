@@ -17,7 +17,7 @@
       DURATION: "120HRS"
       TRAINER: "Sivakumar Reddy M"
     ansible.builtin.debug:
-      msg: "Hi, I am learning {{COURSE}}, Duration: {{DURATION}}, Trainer: {{TRAINER}}"
+      msg: "Hi, I am learning {{COURSE}}"
 
 # Ansible can execute in the below sequence order
 #1. Command line/args
