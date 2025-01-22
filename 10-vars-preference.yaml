@@ -4,8 +4,8 @@
     COURSE: "DevOps with aws from PLAY level"
     DURATION: "120HRS"
     TRAINER: "Sivakumar Reddy M"
-  vars_files:
-  - vars.yaml
+  # vars_files:
+  # - vars.yaml
   vars_prompt:
   - name: COURSE
     prompt: Please enter the course name
@@ -22,4 +22,4 @@
 # Ansible can execute in the below sequence order
 #1. Command line/args
 #2. Task level
-#
+#3. Files
