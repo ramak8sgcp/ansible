@@ -36,4 +36,4 @@
       duration: 120
       trainer: "sivakumar reddy"
     ansible.builtin.debug:
-      mes: "{{ course | dict2items }}"
+      msg: "{{ course | dict2items }}"
